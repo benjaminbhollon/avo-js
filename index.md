@@ -75,4 +75,4 @@ Pretty easy. But I believe that coding's beauty is in its ability to simplify co
 
 ---
 
-A [See WIth Eyes Closed](https://seewitheyesclosed.com) Project by Benjamin Hollon. If you enjoyed this, stop by my site and take a look at some of the other stuff I've made.
+A [See With Eyes Closed](https://seewitheyesclosed.com) Project by Benjamin Hollon. If you enjoyed this, stop by my site and take a look at some of the other stuff I've made.
