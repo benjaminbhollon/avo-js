@@ -16,7 +16,7 @@ This is a _non-comprehensive_ list. It was just me thinking up a few possibiliti
 You can include AvoJS in your application with the following script tag:
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/benjaminbhollon/avo-js@1.0.0/avo.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/benjaminbhollon/avo-js@1/avo.min.js"></script>
 ```
 
 Really, though, AvoJS is so lightweight (Under 400 bytes!) that you should be able to host it yourself with zero problems. Just download `avo.min.js` from [the repository](https://github.com/benjaminbhollon/avo-js) and include it in a script tag. Honestly, it's so small that you could put it in an inline script tag and suffer very few negative consequences.
@@ -54,7 +54,7 @@ Here is the HTML:
 <input type="text" value="Untitled" id="documentHeaderInput">
 
 <!--Include avo.min.js-->
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/benjaminbhollon/avo-js@1.0.0/avo.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/benjaminbhollon/avo-js@1/avo.min.js"></script>
 <!--Include the JS we'll be writing below-->
 <script type="text/javascript" src="script.js"></script>
 ```
