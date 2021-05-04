@@ -21,3 +21,5 @@ function avo(v) {
 
   return avoV[v];
 }
+
+if (typeof module !== 'undefined' && module.exports) module.exports = avo;
