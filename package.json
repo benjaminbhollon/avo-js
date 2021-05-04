@@ -1,6 +1,6 @@
 {
   "name": "avo-js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A JS framework that listens for variable changes and runs callbacks on them.",
   "main": "avo.js",
   "scripts": {
