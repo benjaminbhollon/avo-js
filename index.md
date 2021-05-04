@@ -2,6 +2,28 @@
 
 AvoJS is a simple, un-opinionated, and lightweight library for adding callbacks to function changes. Weighing in at under 400 bytes, it's easily small enough to use without worry.
 
+### Installation
+
+You can include AvoJS in your web application with the following script tag:
+
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/benjaminbhollon/avo-js@1/avo.min.js"></script>
+```
+
+Really, though, AvoJS is so lightweight (Under 400 bytes!) that you should be able to host it yourself with zero problems. Just download `avo.min.js` from [the repository](https://github.com/benjaminbhollon/avo-js) and include it in a script tag. Honestly, it's so small that you could put it in an inline script tag if you like.
+
+If you're using NodeJS, you can install AvoJS via NPM:
+
+```bash
+$ npm install avo-js
+```
+
+Then include it in your application:
+
+```js
+const avo = require('avo-js');
+```
+
 ### Potential use cases
 
 - Automatically updating an HTML element's content when a variable's value changes (see example below).
@@ -10,16 +32,6 @@ AvoJS is a simple, un-opinionated, and lightweight library for adding callbacks 
 - Best of all, being able to combine multiple implementations. The same function could be called, for example, on user input, AJAX callback, and everywhere else that a variable's value is changed.
 
 This is a _non-comprehensive_ list. It was just me thinking up a few possibilities right after finishing the first version. Please do [let me know your implementation](https://seewitheyesclosed.com/contact/) so I can add it! I look forward to hearing about this being used in ways I never foresaw.
-
-### Installation
-
-You can include AvoJS in your application with the following script tag:
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/benjaminbhollon/avo-js@1/avo.min.js"></script>
-```
-
-Really, though, AvoJS is so lightweight (Under 400 bytes!) that you should be able to host it yourself with zero problems. Just download `avo.min.js` from [the repository](https://github.com/benjaminbhollon/avo-js) and include it in a script tag. Honestly, it's so small that you could put it in an inline script tag and suffer very few negative consequences.
 
 ### Usage
 
